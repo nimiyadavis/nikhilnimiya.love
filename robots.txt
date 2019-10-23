@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /public
+Allow: /public/img/logo
+Allow: /public/img/profile
