@@ -8680,10 +8680,10 @@ textarea.form-control {
   z-index: 3; }
 
 .ftco-about .subheading {
-  font-weight: 700;
+  font-weight: 400;
   display: block;
   text-transform: uppercase;
-  font-family: "Libre Caslon Text", serif; }
+  font-family: "Poppins", Arial, sans-serif; }
 
 .ftco-about h2 {
   font-size: 64px;
@@ -8707,10 +8707,9 @@ textarea.form-control {
   margin-bottom: 80px; }
 
 .ftco-about .time {
-  font-family: "Libre Caslon Text", serif;
+  font-family: "Great Vibes", cursive;
   font-size: 48px;
-  color: rgba(0, 0, 0, 0.4);
-  text-transform: uppercase; }
+  color: rgba(0, 0, 0, 0.4); }
 
 .bride-groom {
   width: 100%;
