@@ -8978,6 +8978,7 @@ textarea.form-control {
   .gallery:hover .icon, .gallery:focus .icon {
     opacity: 1; }
 
+
 #map {
   height: 600px;
   width: 100%; }
@@ -9148,6 +9149,11 @@ textarea.form-control {
     margin: 0 10px 10px 0; }
     .footer-small-nav > li a:hover, .footer-small-nav > li a:focus {
       color: #f67e7d; }
+
+.thank-note {
+  font-family: "Great Vibes", cursive;
+  font-size: 34px;
+}
 
 .media .ftco-icon {
   width: 100px; }
