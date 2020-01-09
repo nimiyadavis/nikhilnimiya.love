@@ -8784,7 +8784,7 @@ textarea.form-control {
   position: relative; }
   .timeline:before {
     top: 30px;
-    bottom: 0;
+    bottom: 90px;
     position: absolute;
     content: " ";
     width: 1px;
