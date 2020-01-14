@@ -1,3 +1,43 @@
+$(document).ready(function() {
+  $.when(jQuery.each([
+      "images/about.jpg",
+      "images/bottom-bg.jpg",
+      "images/bride.jpg",
+      "images/gallery-1.jpg",
+      "images/gallery-2.jpg",
+      "images/gallery-3.jpg",
+      "images/gallery-4.jpg",
+      "images/gallery-5.jpg",
+      "images/gallery-6.jpg",
+      "images/gallery-7.jpg",
+      "images/gallery-8.jpg",
+      "images/groom.jpg",
+      "images/nn-logo.png",
+      "images/nn-video.mp4",
+      "images/place-1.jpg",
+      "images/place-2.jpg",
+      "images/place-3.jpg",
+      "images/time-1.jpg",
+      "images/time-10.jpg",
+      "images/time-11.jpg",
+      "images/time-12.jpg",
+      "images/time-2.jpg",
+      "images/time-3.jpg",
+      "images/time-4.jpg",
+      "images/time-5.jpg",
+      "images/time-6.jpg",
+      "images/time-7.jpg",
+      "images/time-8.jpg",
+      "images/time-9.jpg",
+      "images/top-bg.jpg"
+    ], function(i, source) { jQuery.get(source); }))
+    .done(function() {
+      $.when($("#timer .time span")).done(function() {
+        $(".preloader").delay(800).fadeOut(800);
+      })
+    });
+});
+
 AOS.init({
   duration: 800,
   easing: 'slide'
@@ -26,16 +66,6 @@ AOS.init({
 
   };
   fullHeight();
-
-  // loader
-  var loader = function() {
-    setTimeout(function() {
-      if ($('#ftco-loader').length > 0) {
-        $('#ftco-loader').removeClass('show');
-      }
-    }, 1);
-  };
-  loader();
 
   // Scrollax
   $.Scrollax();
@@ -316,7 +346,6 @@ AOS.init({
     $("#hours").html(hours + "<span>Hours</span>");
     $("#minutes").html(minutes + "<span>Minutes</span>");
     $("#seconds").html(seconds + "<span>Seconds</span>");
-
   }
 
   setInterval(function() { makeTimer(); }, 1000);
