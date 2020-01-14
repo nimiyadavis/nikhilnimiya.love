@@ -44,7 +44,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%)
 }
-
+/*
 @media (max-width:550px) {
   .preloader {
     -webkit-transform: scale(0.75);
@@ -57,7 +57,7 @@
     -webkit-transform: scale(0.5);
     transform: scale(0.5)
   }
-}
+}*/
 
 .l_square {
   position: relative
